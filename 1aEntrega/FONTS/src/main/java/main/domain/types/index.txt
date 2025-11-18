@@ -1,0 +1,5 @@
+INDEX TYPES
+Esta carpeta contiene los tipos que guardan la respuesta a preguntas.
+TDatosInteger: respuestas numericas.
+TDatosOpciones: respuestas a multiples opciones.
+TDatosString: respuestas de formato libre.

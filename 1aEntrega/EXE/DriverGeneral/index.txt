@@ -1,0 +1,5 @@
+En esta carpeta se encuentran los 3 diferentes juegos de pruebas empleados en el driver general y dos archivos que describen los juegos de pruebas y su estructura/funcionamiento asi como el ejecutable del propio driver general.
+funcionamiento -> FuncionamientoJuegosDePrueba.txt
+descripcion estructura juegos de prueba -> DescripcionJuegosDePrueba.txt
+juegos de prueba -> pruebax.txt + perfilesx.txt siendo x un numero del 1 al 3
+descripcion operativa del driver -> DescripcionOperativa.txt

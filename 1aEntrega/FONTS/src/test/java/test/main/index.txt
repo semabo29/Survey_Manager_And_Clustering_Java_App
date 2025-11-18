@@ -1,0 +1,4 @@
+INDEX TESTS
+tests de las clases del dominio -> /domain - aqui se encuentran los tests de todas las clases del dominio ya sean controladores/clases, o en una carpeta a parte los tests del analizador (/analisis) y de los TDatos (/types)
+
+tests de la persistencia -> /persistance - en esta carpeta se encuentra el test del controlador de persistencia que testea la creacion, importacion y guardado de los diferentes ficheros.

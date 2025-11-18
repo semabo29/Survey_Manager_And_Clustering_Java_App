@@ -1,0 +1,6 @@
+INDEX DRIVERS
+Esta carpeta contiene el codigo de los drivers ejecutables que permiten probar las funcionalidades principales
+implementadas.
+
+DriverEncuesta: sirve para probar funcionalidades de encuestas.
+DriverGeneral: sirve para probar todo en conjunto.

@@ -1,0 +1,19 @@
+En la carpeta JuegosDePrueba, incluimos 3 juegos de prueba diferentes:
+perfiles1.txt + prueba1.txt
+perfiles2.txt + prueba2.txt
+perfiles3.txt + prueba3.txt
+
+El juego de pruebas 1 trata los distintos tipos de pregunta que tenemos, con 12
+respuestas diferentes. Este caso tiene un clustering bastante malo por la poca
+cantidad de respuestas y la diferencia entre cada una. El objetivo es ver que
+funcione.
+
+El juego de pruebas 2 trata casos mas extremos, como el rango limite de una pregunta
+de tipo Numerica y una pregunta de tipo ConOpciones con muchas opciones. Lo hemos
+usado para observar errores y saber que limites tenemos.
+
+El juego de pruebas 3 trata un clustering simple, con 20 respuestas que se reparten
+perfectamente en 4 clusters de 5 respuestas con el mismo valor. El objetivo de este
+juego de pruebas es ver de manera facil que se reparten bien los clusters y observar
+como se comportan los algoritmos cuando se usa una K suboptima y como se tratan
+clusters vacios y centroides con mismos valores.

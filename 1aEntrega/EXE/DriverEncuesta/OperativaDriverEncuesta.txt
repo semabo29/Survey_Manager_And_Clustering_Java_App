@@ -1,0 +1,15 @@
+=== OPERATIVA ===
+El driver se ejecuta con la comanda "java -jar DriverEncuesta.jar", teniendo DriverEncuesta.jar 
+en el directorio actual de trabajo.
+
+El formato de los menus es siempre el mismo, el usuario tendra que introducir el numero
+de la opcion que quiera seleccionar.
+
+Las opciones que iniciales son:
+1 - Crear una nueva encuesta: empezar a crear una encuesa nueva.
+2 - Modificar una encuesta existente: seleccionar una encuesta existente para modificarla.
+3 - Consultar una encuesta existente: mostrar por pantalla una encuesta existente.
+4 - Salir
+
+NOTA: no garantizamos que siempre que se haga una modificacion se guarde la encuesta automaticamente.
+Por esta razon, hay que seleccionar guardar encuesta siempre que modifiquemos algo.

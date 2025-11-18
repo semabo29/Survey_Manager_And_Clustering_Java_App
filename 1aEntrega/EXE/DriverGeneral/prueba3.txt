@@ -1,0 +1,27 @@
+ENCUESTA,Encuesta sencilla,admin@mail.com
+
+PREGUNTAS
+PREGUNTA,1,Edad,true,Numerica,0,100
+
+RESPUESTAS
+RESPUESTA,1@mail.com,20
+RESPUESTA,2@mail.com,20
+RESPUESTA,3@mail.com,20
+RESPUESTA,4@mail.com,20
+RESPUESTA,5@mail.com,20
+RESPUESTA,6@mail.com,40
+RESPUESTA,7@mail.com,40
+RESPUESTA,8@mail.com,40
+RESPUESTA,9@mail.com,40
+RESPUESTA,10@mail.com,40
+RESPUESTA,11@mail.com,60
+RESPUESTA,12@mail.com,60
+RESPUESTA,13@mail.com,60
+RESPUESTA,14@mail.com,60
+RESPUESTA,15@mail.com,60
+RESPUESTA,16@mail.com,80
+RESPUESTA,17@mail.com,80
+RESPUESTA,18@mail.com,80
+RESPUESTA,19@mail.com,80
+RESPUESTA,20@mail.com,80
+

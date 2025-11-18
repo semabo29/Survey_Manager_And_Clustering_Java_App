@@ -1,0 +1,16 @@
+PERFIL,creador@x.y,creador,1
+PERFIL,a@x.y,a,1
+PERFIL,b@x.y,b,1
+PERFIL,c@x.y,c,1
+PERFIL,d@x.y,d,1
+PERFIL,e@x.y,e,1
+PERFIL,f@x.y,f,1
+PERFIL,g@x.y,g,1
+PERFIL,h@x.y,h,1
+PERFIL,i@x.y,i,1
+PERFIL,j@x.y,j,1
+PERFIL,k@x.y,k,1
+PERFIL,l@x.y,l,1
+PERFIL,m@x.y,m,1
+PERFIL,n@x.y,n,1
+PERFIL,o@x.y,n,1

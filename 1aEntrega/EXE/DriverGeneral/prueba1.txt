@@ -1,0 +1,28 @@
+ENCUESTA,Encuesta de Hábitos Diarios,admin@mail.com
+
+PREGUNTAS
+PREGUNTA,1,¿Cuál es tu nombre?,true,FormatoLibre
+PREGUNTA,2,Edad,true,Numerica,0,120
+PREGUNTA,3,Horas de sueño al día,false,Numerica,0,24
+
+PREGUNTAS_OPCIONES
+PREGUNTA,4,¿Cuál es tu comida favorita?,false,ConOpciones,Pizza.Pasta.Ensalada.Sushi.Hamburguesa
+PREGUNTA,5,¿Haces ejercicio semanalmente?,true,ConOpciones,Sí.No.Algunas veces
+PREGUNTA,6,Color favorito,false,ConOpciones,Rojo.Verde.Azul.Amarillo.Morado
+PREGUNTA,7,Medio de transporte principal,true,ConOpciones,Coche.Transporte público.Bicicleta.Andar.Moto
+
+RESPUESTAS
+RESPUESTA,juan@mail.com,Juan,24,7,1,1,3,2
+RESPUESTA,ana@mail.com,Ana,30,6,4,3,2,1
+RESPUESTA,carlos@mail.com,Carlos,19,8,2,2,1,3
+RESPUESTA,lucia@mail.com,Lucía,41,5,3,1,4,2
+RESPUESTA,mario@mail.com,Mario,33,6,1,3,3,1
+RESPUESTA,sofia@mail.com,Sofía,27,7,5,2,1,2
+RESPUESTA,raul@mail.com,Raúl,22,9,3,1,5,1
+RESPUESTA,beatriz@mail.com,Beatriz,29,8,2,3,2,4
+RESPUESTA,alberto@mail.com,Alberto,47,6,1,2,1,2
+RESPUESTA,laura@mail.com,Laura,35,5,4,2,3,3
+RESPUESTA,pedro@mail.com,Pedro,52,7,3,3,1,4
+RESPUESTA,monica@mail.com,Mónica,26,6,2,2,4,1
+
+

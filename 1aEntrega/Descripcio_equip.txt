@@ -1,0 +1,13 @@
+PROP Equipo 22.4
+
+Jin, Yimin
+Khalil, Wysocka, Hadeer Abbas
+Lafuente Patau, Andres
+Malaguilla, Bombin, Sergi
+Zhangpan, Javier
+
+yimin.jin@estudiantat.upc.edu
+hadeer.abbas.khalil@estudiantat.upc.edu 
+andres.lafuente.patau@estudiantat.upc.edu
+sergi.malaguilla@estudiantat.upc.edu
+javier.zhangpan@estudiantat.upc.edu

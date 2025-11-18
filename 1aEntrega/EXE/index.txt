@@ -1,0 +1,4 @@
+INDEX EXE
+Esta carpeta contiene los ejecutables de los drivers y los juegos de pruebas
+DriverGeneral (donde se encuentra la funcionalidad global de la aplicacion) y sus juegos de pruebas -> /DriverGeneral
+DriverEncuesta (driver utilizado para testear las funcionalidades de gestion de encuesta) -> /DriverEncuesta

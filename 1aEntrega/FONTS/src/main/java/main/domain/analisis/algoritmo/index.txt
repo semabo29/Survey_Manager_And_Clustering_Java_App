@@ -1,0 +1,4 @@
+INDEX ALGORITMO
+Esta carpeta contiene los codigos de los algoritmos de clustering.
+KMeans: algoritmo kmeans.
+KMedoids: algoritmo kmedoids.

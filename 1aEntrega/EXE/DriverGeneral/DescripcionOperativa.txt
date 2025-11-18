@@ -1,0 +1,34 @@
+=== OPERATIVA ===
+
+El driver se ejecuta con la comanda "java -jar DriverGeneral.jar", teniendo DriverGeneral.jar en el directorio actual de trabajo.
+
+El formato de cada "menu" es el mismo, se le presentaran varias opciones cada una listada con un entero, que el mismo ha de indicar para seleccionar su opcion deseada, si introduce un entero no valido peta el sistema.
+
+Al ejecutar-se, el usuario ha de o cargar un perfil ya existente en la estructura de las carpetas (en "ficheros", ha de estar en el mismo directorio de trabajo del entorno en que se ejecuta) indicando el email, o crear uno, indicando todos los campos necesarios.
+
+Despues de tener un perfil cargado o creado, se le presenta al usuario el menu principal con varias opciones, en algunas de ellas tendra otro submenu con mas opcions:
+
+1 - Consultar Perfil Actual: Devuelve informacion sobre el perfil cargado.
+2 - Consultar Encuesta Actual: Devuelve informacion sobre la encuesta cargada y sus preguntas.
+3 - Consultar Respuestas Cargadas: Devuelve las respuestas que están cargadas actualmente para hacer el analisis (han de ser respuestas a la misma encuesta).
+4 - Gestion de Encuestas:
+	1 - Crear encuesta: Crea una encuesta VACIA indicando el titulo que quiere tener.
+        2 - Guardar encuesta actual: Guarda la encuesta en un fichero dentro de la carpeta "ficheros" en una cierta estructura.
+        3 - Borrar encuesta actual: Borra la encuesta cargada y su fichero asociado dentro de "ficheros".
+	4 - Modificar encuesta actual: Anade, elimina y modifica las preguntas de la encuesta cargada.
+	5 - Cargar encuesta: Encuentra el fichero de la encuesta indicada y la carga en el sistema.
+5 - Gestion de Perfiles: Tiene las mismas operaciones que cuando empiezas a ejecutarlo, cargar y guardar perfiles.
+6 - Gestion de Respuestas:
+	1 - Cargar respuesta: Encuentra el fichero de la respuesta indicada y la carga en el sistema.
+	2 - Cargar todas las respuestas de la encuesta actual: Carga todas las respuestas asociadas a la encuesta cargada para que se puedan analizar.
+	3 - Guardar respuesta actual: Guarda la respuesta en un fichero dentro de la carpeta "ficheros" en una cierta estructura.
+	4 - Borrar respuesta actual: Borra la respuesta cargada y su fichero asociado dentro de "ficheros".
+	5 - Responder encuesta actual: Crea una respuesta, la anade como respuesta actual y cargadas y responde a la encuesta actual pregunta por pregunta.
+	6 - Responder pregunta: Responde una pregunta concreta de la encuesta actual. (ha de tener la respuesta cargada).
+7 - Cargar juego de pruebas: Indica el path absoluto del fichero perfil.txt y pruebas.txt para cargar el juego de pruebas deseado (han de tener el formato correcto explicado)
+8 - Algoritmos de Analisis: Deja escoger los inicializadores y algoritmos de clustering.
+	NOTA: las unicas opciones de (algoritmo,inicializacion) compatibles son: (KMeans,Random), (KMeans,KMeans++), (KMedoids,Greedy)
+9 - Analizar Encuesta: Realiza el analisis de las respuestas cargadas, imprimiendo los clusters y que perfiles hay en cada cluster, junto a un valor que indica la calidad del clustering.
+10 - Elegir K para analisis: Permite consultar o introducir el valor de K del clustering, que son el numero de clusters que se quieren hacer para el analisis.
+11 - Elegir Evaluador de Calidad: Permite mostrar y seleccionar el evaluador de calidad, que evalua la calidad del clustering del analisis.
+	NOTA: las opciones son: Silhouette (por defecto), Calinski-Harabasz, Davies-Bouldin

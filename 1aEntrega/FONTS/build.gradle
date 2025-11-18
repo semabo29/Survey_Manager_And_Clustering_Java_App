@@ -1,0 +1,106 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'edu.upc.prop.cluster224'
+version = '1.0-SNAPSHOT'
+
+ext {
+    javaMainClass = 'main.Main'
+}
+
+application {
+    mainClassName = javaMainClass
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': javaMainClass
+    }
+}
+
+// Apply a specific Java toolchain to ease working on different environments.
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation('junit:junit:4.13.1')
+    testImplementation('org.mockito:mockito-core:4.9.0')
+}
+
+test {
+    useJUnit()
+}
+
+// Para los drivers
+sourceSets {
+    drivers {
+        java {
+            srcDir 'src/drivers/java'
+        }
+        resources {
+            srcDir 'src/drivers/resources'
+        }
+        compileClasspath += sourceSets.main.output + configurations.runtimeClasspath
+        runtimeClasspath += output + compileClasspath
+    }
+}
+
+configurations {
+    driversImplementation.extendsFrom implementation
+    driversRuntimeOnly.extendsFrom runtimeOnly
+}
+
+tasks.register("DriverEncuesta", Jar) {
+    group = "drivers"
+    description = "Genera Driver Encuesta"
+
+    archiveFileName.set("DriverEncuesta.jar")
+    destinationDirectory.set(file(layout.buildDirectory.dir("libs")))
+
+    from sourceSets.drivers.output
+    from sourceSets.main.output
+
+    manifest {
+        attributes(
+                "Main-Class": "DriverEncuesta"
+        )
+    }
+
+    dependsOn sourceSets.drivers.classesTaskName
+}
+
+tasks.register("DriverGeneral", Jar) {
+    group = "drivers"
+    description = "Genera Driver General"
+
+    archiveFileName.set("DriverGeneral.jar")
+    destinationDirectory.set(file(layout.buildDirectory.dir("libs")))
+
+    from sourceSets.drivers.output
+    from sourceSets.main.output
+
+    manifest {
+        attributes(
+                "Main-Class": "DriverGeneral"
+        )
+    }
+
+    dependsOn sourceSets.drivers.classesTaskName
+}
+
+// Añadir mas drivers despues
+tasks.register("Drivers") {
+    group = "drivers"
+    description = "Genera todos los drivers"
+    dependsOn "DriverEncuesta", "DriverGeneral"
+}

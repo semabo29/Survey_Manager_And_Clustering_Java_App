@@ -1,0 +1,15 @@
+El DriverEncuesta trata la gestion de encuestas. Prueba todas las clases relacionadas
+con esta funcionalidad, que serian CtrlEncuesta, Encuesta, Pregunta, los tipos de pregunta
+y la capa de persistencia.
+
+El objetivo del driver es probar la gestion de encuestas aparte, ya que no teniamos
+todo acabado. Este driver permite crear encuestas sin tener que cargar perfiles.
+
+Este driver no tiene juegos de prueba, se trata de ir creando encuestas.
+
+Valores estudiados:
+Este driver prueba con el metodo de la caja negra. El usuario ira dando inputs sin saber
+que es lo que hace por detras el driver.
+
+Efectos estudiados:
+Este driver intenta ver si se crean correctamente las encuestas.

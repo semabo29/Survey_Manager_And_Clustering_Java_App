@@ -1,0 +1,7 @@
+INDEX FONTS
+Esta carpeta contiene dos directorios, uno con el codigo de todas las clases del dominio y otro con 
+codigo clases y todos los codigos fuente -> /src
+ -> /bin
+
+ Para compilar los drivers, hay que utilizar el comando ./gradlew Drivers
+ Los drivers se guardan el build/libs

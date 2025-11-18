@@ -1,0 +1,57 @@
+[Fichero de Perfiles]
+PERFIL,correo,nombre,contrasena
+
+Este fichero debe contener el perfil del creador de la encuesta y de los respondedores de la encuesta 
+para poder crear sus perfiles y guardarlos en la persistencia. Este fichero es necesario para poder llevar
+a cabo el juego de pruebas ya que se obliga a tener el perfil cargado a la hora de crear una respuesta o una 
+encuesta ya que se debe asignar el correspondiente atributo al objeto.
+
+La estructura del fichero es simple, en cada linea del fichero se representara un perfil indicando que es un perfil 
+con PERFIL y separando los siguientes atributos email, nombre y contrasena con “,” para poder hacer el string split 
+y separar los atributos.
+
+
+[Fichero con encuesta y respuestas]
+ENCUESTA,nombre,correo
+
+PREGUNTAS
+PREGUNTA,id,texto,obligatoriedad,(FormatoLibre)
+PREGUNTA,id,texto,obligatoriedad,(Numerica),min,max
+...
+
+PREGUNTAS_OPCIONES
+PREGUNTA,id,texto,obligatoriedad,ConOpciones,o1.o2.o3
+...
+
+RESPUESTAS
+RESPUESTA,correo,r1,r2,r3.r3
+…
+
+Este fichero debe contener la informacion de la encuesta y las respuestas a crear, muy importante la separacion
+con “,” para el string split, indicando ENCUESTA,nombre,correo  y se crea la instancia de encuesta, acto seguido
+se debe escribir las preguntas que compondran la encuesta y los datos necesarios encabezado con PREGUNTAS.
+
+Para una pregunta FormatoLibre la estructura debe ser:
+PREGUNTA,id,texto,obligatoriedad,FormatoLibre
+
+Para una pregunta Numerica la estructura debe ser:
+PREGUNTA,id,texto,obligatoriedad,Numerica,min,max
+
+Para una pregunta conOpciones la estrctura debe ser, encabezada con el encabezado PREGUNTAS_OPCIONES:
+PREGUNTAS_OPCIONES
+PREGUNTA,id,texto,obligatoriedad,ConOpciones,o1.o2.o3
+Separando las distintas opciones con un “.”
+
+Notar que si se quiere un orden especifico de las preguntas, se debe realizar con el orden de los ids y no el orden
+en el que se escriben en el fichero.
+
+Para las respuestas, se debe indicar el encabezado RESPUESTAS y seguido las diferentes respuestas de los diferentes
+Perfiles indicados en el fichero perfiles.txt
+
+La estructura para las respuestas sera:
+RESPUESTA,correo,r1,r2,r3.r3
+siendo correo un email valido de algun perfil del fichero de perfiles.txt y seguido de las respuestas a cada una de 
+las preguntas y notando que las respuestas multiples a una pregunta con opciones se escribe separando las opciones con “.”
+
+NOTA: Para el juego de pruebas la funcionalidad adicional obligatoriedad de las preguntas no esta interpretada en el driver
+en esta primera entrega pero si implementada en las clases y al responder como usuario individual.

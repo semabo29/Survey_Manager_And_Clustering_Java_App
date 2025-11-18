@@ -1,0 +1,13 @@
+PERFIL,admin@mail.com,admin,1234
+PERFIL,juan@mail.com,Juan,1234
+PERFIL,ana@mail.com,ana,1234
+PERFIL,carlos@mail.com,carlos,1234
+PERFIL,lucia@mail.com,lucia,1234
+PERFIL,mario@mail.com,mario,1234
+PERFIL,sofia@mail.com,sofia,1234
+PERFIL,raul@mail.com,raul,1234
+PERFIL,beatriz@mail.com,beatriz,1234
+PERFIL,alberto@mail.com,alberto,1234
+PERFIL,laura@mail.com,laura,1234
+PERFIL,pedro@mail.com,pedro,1234
+PERFIL,monica@mail.com,monica,1234

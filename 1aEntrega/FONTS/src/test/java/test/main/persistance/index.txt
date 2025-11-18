@@ -1,0 +1,2 @@
+INDEX PERSISTANCE
+Esta carpeta contiene los tests a clases de persistencia.

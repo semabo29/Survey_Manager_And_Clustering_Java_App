@@ -1,0 +1,8 @@
+INDEX DOCS
+Esta carpeta contiene la documentacion demandada para la primera entrega:
+Diagrama de casos de uso -> apartado 1 del pdf 
+Diagrama del modelo conceptual -> apartado 2 del pdf 
+Relacion de clases del modelo -> apartado 3 del pdf 
+Descripcion de las estr.dades y algoritmos -> apartado 4 del pdf 
+
+

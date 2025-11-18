@@ -1,0 +1,5 @@
+INDEX MAIN
+En este directorio se encuentran las 3 capas de la arquitectura diferenciada en 3 directorios
+dominio -> domain
+persistencia -> persistence
+presentacion -> presentation
