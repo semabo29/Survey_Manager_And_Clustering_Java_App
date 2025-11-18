@@ -22,7 +22,7 @@ Entrega1
   - Demonstrates the core architecture of the project, including modular classes, domain objects, and data structures.
 
  ⚙️Done:
-  Features
+    - Features
     - Profiles: create, load, view, and import multiple profiles from a file.
     - Surveys: create, modify, delete, and load surveys; add questions of type Free Text, Numeric, or With Options; 
       manage options for multiple-choice questions.
