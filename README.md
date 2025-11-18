@@ -13,6 +13,7 @@ and applies design patterns to ensure modularity, maintainability, and extensibi
 The repository is organized by deliveries:
 
 Entrega1
+
  📝Expected:
   - Implements the initial clustering algorithms:
     - k-medoids with greedy initialization
