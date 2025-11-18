@@ -35,6 +35,11 @@ Entrega1
    - Unit Testing: comprehensive unit tests covering domain objects, controllers, and persistence logic using JUnit and Mockito.
    - Persistence: profiles, surveys, and responses are persisted to disk; imported and saved automatically.
    - Drivers: 2 drivers developed, one for the generic use of app called DriverGeneral and the other focused on sruvey analysis called DriverEncuesta.
+   - Software Design Patterns used:
+       - State
+       - Template Method
+       - Strategy
+       - Singleton
     
 Entrega2
 
