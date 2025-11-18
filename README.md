@@ -22,17 +22,17 @@ Entrega1
   - Demonstrates the core architecture of the project, including modular classes, domain objects, and data structures.
 
  ⚙️Done:
-    - Features
-    - Profiles: create, load, view, and import multiple profiles from a file.
-    - Surveys: create, modify, delete, and load surveys; add questions of type Free Text, Numeric, or With Options; 
-      manage options for multiple-choice questions.
-    - Responses: answer full surveys or individual questions; load, save, and delete responses; validates required questions and numeric ranges.
-    - Test Dataset: load surveys and responses from structured files for testing.
-    - Analysis: configure clustering algorithms (KMeans/KMedoids), initializers, number of clusters (K), and quality evaluators 
+   - Features
+   - Profiles: create, load, view, and import multiple profiles from a file.
+   - Surveys: create, modify, delete, and load surveys; add questions of type Free Text, Numeric, or With Options; 
+     manage options for multiple-choice questions.
+   - Responses: answer full surveys or individual questions; load, save, and delete responses; validates required questions and numeric ranges.
+   - Test Dataset: load surveys and responses from structured files for testing.
+   - Analysis: configure clustering algorithms (KMeans/KMedoids), initializers, number of clusters (K), and quality evaluators 
       (Silhouette, Calinski-Harabasz, Davies-Bouldin); run analysis and view clusters with participant emails.
-    - Unit Testing: comprehensive unit tests covering domain objects, controllers, and persistence logic using JUnit and Mockito.
-    - Persistence: profiles, surveys, and responses are persisted to disk; imported and saved automatically.
-    - Drivers: 2 drivers developed, one for the generic use of app called DriverGeneral and the other focused on sruvey analysis called DriverEncuesta.
+   - Unit Testing: comprehensive unit tests covering domain objects, controllers, and persistence logic using JUnit and Mockito.
+   - Persistence: profiles, surveys, and responses are persisted to disk; imported and saved automatically.
+   - Drivers: 2 drivers developed, one for the generic use of app called DriverGeneral and the other focused on sruvey analysis called DriverEncuesta.
     
 Entrega2
 
