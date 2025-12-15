@@ -1,0 +1,8 @@
+INDEX DOCS
+Esta carpeta contiene la documentacion demandada para la segunda entrega:
+Diagrama de la capa de dominio -> apartado 1 del pdf 
+Diagrama de la capa de persistencia -> apartado 2 del pdf 
+Diagrama de la capa de presentacion -> apartado 3 del pdf 
+Descripcion de las estr.dades y algoritmos -> apartado 4 del pdf
+
+NOTA: Para ver correctamente los archivos .svg, se recomienda usar el navegador ya que cualquier otra aplicacion puede alterar los contenidos del diagrama de forma inesperada.
