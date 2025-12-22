@@ -54,9 +54,10 @@ Entrega3
   - Final delivery with complete project implementation:
   - All classes of the project organized according to packages for direct compilation
   - Executable applications and full test datasets
-  - Optional documentation generated with Doxygen or similar tools
+  - Optional documentation generated with JavaDocs
   - User manuals and comprehensive test descriptions
   - Represents the final, polished version of the software, ready for evaluation.
+  - See README.md in FONTS directory to understand how to execute and test the app.
 
 🛠 Technology & Tools
 
