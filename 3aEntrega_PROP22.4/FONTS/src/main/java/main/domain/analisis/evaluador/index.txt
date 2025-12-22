@@ -1,0 +1,5 @@
+INDEX EVALUADOR
+Esta carpeta contiene los codigos de los evaluadores de calidad de clusterings.
+Silhouette: coeficiente Silhouette.
+DaviesBouldinen: indice Davies-Bouldin.
+CalinskiHarabasz: indice Calinski-Harabasz.

@@ -1,0 +1,4 @@
+INDEX DOMAIN
+Esta carpeta contiene los tests a las clases de la capa de dominio.
+Carpeta analisis: tests del paquete main.domain.analisis
+Carpeta types: tests del paquete main.domain.types

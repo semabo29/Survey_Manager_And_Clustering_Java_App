@@ -1,0 +1,7 @@
+INDEX DOCS
+Esta carpeta contiene la documentacion del proyecto para la tercera entrega:
+-	Directorio javadocs con la documentacion del codigo en formato de Javadocs 
+-	Fichero PDF Relacion de clases
+-	Fichero PDF Manual de usuario
+-	Fichero PDF Justificacion de los juegos de pruebas y casos de uso 
+-	Fichero PDF Changelog respecto a la segunda entrega.

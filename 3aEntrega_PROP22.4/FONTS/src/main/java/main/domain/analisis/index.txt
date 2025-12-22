@@ -1,0 +1,5 @@
+INDEX ANALISIS
+esta carpeta contiene todos los codigos de la funcionalidad principal del sistema, el analisis. 
+En la carpeta /algoritmo se encuentran los dos tipos de algoritmos implementados, el k-means y el k-medoids. 
+En la carpeta /evaluador se encuentran los 3 evaluadores implementados, el Calinski-Harabasz, el Silhouette y el Davies-Bouldin. 
+En la carpeta /inicializador se encuentran los 3 inicializadores de algoritmo implementados, el Greedy para k medoids, y el random, kmeans++ para el k-means.

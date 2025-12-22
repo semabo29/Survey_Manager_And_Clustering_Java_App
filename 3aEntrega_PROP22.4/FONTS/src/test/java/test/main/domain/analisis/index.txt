@@ -1,0 +1,3 @@
+INDEX ANALISIS
+Esta carpeta contiene los tests a clases de analisis
+Carpeta evaluador: tests de evaluadores

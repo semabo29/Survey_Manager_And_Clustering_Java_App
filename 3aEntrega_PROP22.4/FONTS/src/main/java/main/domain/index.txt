@@ -1,0 +1,14 @@
+INDEX DOMAIN
+Esta carpeta contiene todas las clases del dominio asi como la 3 carpetas que separan los Tdatos (/types) las excepciones (/exceptions) y los algoritmos encargados de realizar el analisis (/analisis)
+ConOpciones: tipo de pregunta con multiples opciones.
+CtrlDominio: controlador del dominio.
+CtrlEncuesta: controlador de encuestas.
+CtrlPerfil: controlador de perfiles.
+CtrlRespuesta: controlador de respuestas.
+Encuesta: clase que guarda preguntas y representa una encuesta.
+FormatoLibre: tipo de pregunta de formato libre.
+Numerica: tipo de pregunta de respuesta numerica.
+Opcion: clase que representa una opcion en una pregunta de multiples opciones.
+Perfil: representa al usuario.
+Pregunta: pregunta de una encuesta.
+RespuestaEncuesta: clase que contiene las respuestas a las preguntas de una encuesta.

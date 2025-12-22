@@ -1,0 +1,5 @@
+INDEX SRC
+Esta carpeta contiene 3 subcarpetas con 
+el codigo de todas las clases hechas hasta ahora -> /main/java/main
+el codigo de los drivers utilizados -> /drivers/java
+el codigo de todos los tests -> /test/java/test/main

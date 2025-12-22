@@ -1,0 +1,18 @@
+INDEX PRESENTATION 
+Esta carpeta contiene las clases implementadas en la capa de presentación.
+PresenterAnalisis: Interfaz con los metodos para analizar.
+PresenterEncuesta: Interfaz con los metodos de encuesta.
+PresenterPerfil: Interfaz con los metodos de perfil.
+PresenterPerfil: Interfaz con los metodos de respuesta.
+CtrlPresentacion: Controlador de la capa de presentacion, implementa todos los presenters.
+VistaPrincipal: vista principal que contiene los menus de la aplicacion.
+PanelEncuesta: menu principal de gestion de encuestas.
+PanelCargarEncuesta: panel que tiene la funcionalidad para seleccionar encuestas.
+PanelVerEncuesta: panel que muestra una encuesta.
+PanelCrearEncuesta: panel para la creacion de encuestas.
+PanelModificarEncuesta: panel para modificar una encuesta y sus preguntas.
+PanelPerfil: panel de inicio de sesion y registro.
+PanelGestionPerfil: panel de gestion del perfil.
+PanelRespuesta: menu principal de gestion de respuestas.
+PanelSeleccionarAnalisis: menu principal de analisis.
+PanelResultadoAnalisis: panel que muestra el resultado de un analisis.

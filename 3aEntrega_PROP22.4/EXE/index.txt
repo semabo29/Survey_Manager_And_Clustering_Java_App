@@ -1,0 +1,7 @@
+INDEX EXE
+Esta carpeta contiene el ejecutable del programa final y los juegos de pruebas
+EnquestadorCluster22.4-3.0.jar (donde se encuentra el ejecutable de la aplicacion) -> /EnquestadorCluster22.4-3.0.jar
+JuegoDePruebasLoanTest.zip (donde se encuentra el primer juego de pruebas) -> /JuegoDePruebasLoanTest.zip
+JuegoDePruebasLoanTrain.zip (donde se encuentra el segundo juego de pruebas) -> /JuegoDePruebasLoanTrain.zip
+JuegoDePruebasEncuestaAsignatura.zip (donde se encuentra el tercer juego de pruebas) -> /JuegoDePruebasEncuestaAsignatura.zip
+JuegoDePruebasTodos.zip (donde se encuentran todos los juegos de pruebas combinados en un unico 'ficheros') -> /JuegoDePruebasTodos.zip

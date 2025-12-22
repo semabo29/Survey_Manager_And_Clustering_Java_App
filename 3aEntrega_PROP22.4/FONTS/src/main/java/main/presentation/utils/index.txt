@@ -1,0 +1,4 @@
+INDEX UTILS
+Esta carpeta contiene clases reutilizadas en otras clases de presentacion.
+PanelOpcion: panel para representar SimpleEntry de Strings en una JList.
+PanelPregunta: panel para representar las preguntas de una encuesta.

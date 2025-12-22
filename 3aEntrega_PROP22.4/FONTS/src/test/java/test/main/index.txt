@@ -1,0 +1,3 @@
+INDEX TESTS
+tests de las clases del dominio -> /domain - aqui se encuentran los tests de todas las clases del dominio ya sean controladores/clases, o en una carpeta a parte los tests del analizador (/analisis) y de los TDatos (/types)
+

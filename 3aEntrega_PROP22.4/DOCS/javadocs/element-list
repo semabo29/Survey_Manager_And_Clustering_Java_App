@@ -1,0 +1,12 @@
+main
+main.domain
+main.domain.analisis
+main.domain.analisis.algoritmo
+main.domain.analisis.evaluador
+main.domain.analisis.inicializador
+main.domain.exceptions
+main.domain.types
+main.persistence
+main.persistence.exceptions
+main.presentation
+main.presentation.utils

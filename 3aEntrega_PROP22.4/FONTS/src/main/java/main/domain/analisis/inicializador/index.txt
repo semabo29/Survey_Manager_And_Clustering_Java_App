@@ -1,0 +1,5 @@
+INDEX INICIALIZADOR
+Esta carpeta contiene el codigo de cada inicializador de centroides para el algoritmo de clustering.
+InicializadorKMeansPlusPlus: inicializador kmeans++ para kmeans.
+InicializadorKMedoidsGreedy: inicializador para kmedoids.
+InicializadorRandom: inicializador aleatorio, solo para kmeans.
