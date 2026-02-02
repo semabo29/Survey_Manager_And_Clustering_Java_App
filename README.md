@@ -7,6 +7,33 @@ The goal of the application is to analyze survey responses, identify different b
 People with similar answers are clustered together using k-means and k-medoids algorithms. The project follows software architecture principles 
 and applies design patterns to ensure modularity, maintainability, and extensibility.
 
+## 📸 Application Demo
+
+Below is the main workflow of the application, covering authentication, survey management, and data analysis.
+
+### 1. Authentication & User Management
+Secure access via user login and new user registration.
+
+| Log In | Sign In |
+| :---: | :---: |
+| ![Log In](./Results/LogIn.png) | ![Sign In](./Results/SignIn.png) |
+
+### 2. Survey Management
+Interface for managing surveys and the user view for answering them.
+
+| Survey Manager | Answering Survey |
+| :---: | :---: |
+| ![Manager](./Results/SurveyManager.png) | ![Answering](./Results/AnsweringSurvey.png) |
+
+### 3. Analysis Module (Clustering)
+Data visualization and clustering algorithm configuration.
+
+| Clustering Configuration | Results Graph |
+| :---: | :---: |
+| ![Options](./Results/ClusteringOptionsManager.png) | ![Graph](./Results/ClusteringResultGraph.png) |
+
+**Detailed Results Table:**
+![Results Table](./Results/ClusteringResultTable.png)
 
 📂 Repository Structure
 
