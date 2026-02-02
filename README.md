@@ -35,7 +35,7 @@ Data visualization and clustering algorithm configuration.
 **Detailed Results Table:**
 ![Results Table](./Results/ClusteringResultTable.png)
 
-📂 Repository Structure
+## 📂 Repository Structure
 
 The repository is organized by deliveries:
 
